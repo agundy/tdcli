@@ -1,5 +1,6 @@
 # tdcli
 A simple Ruby Command Line Interface for Todoist
+
 [![Gem Version](https://badge.fury.io/rb/tdcli.svg)](https://badge.fury.io/rb/tdcli)
 
 ## Purpose
