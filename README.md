@@ -1,5 +1,6 @@
 # tdcli
 A simple Ruby Command Line Interface for Todoist
+[![Gem Version](https://badge.fury.io/rb/tdcli.svg)](https://badge.fury.io/rb/tdcli)
 
 ## Purpose
 I am building this to integrate Todoist into my operating system and learn Ruby. Most existing implementations of Todoist CLI's are in Python as well as add extra formmating that prevent me from running things like `tdcli tasks | wc -l` to get a count of my tasks.
