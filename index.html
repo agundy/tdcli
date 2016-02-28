@@ -36,15 +36,29 @@
 <h2>
 <a id="purpose" class="anchor" href="#purpose" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Purpose</h2>
 
-<p>Building this to learn Ruby and integrate Todoist into my operating system. Most existing implementations are in Python as well as add extra formmating that prevent me from running things like <code>tdcli tasks | wc -l</code> to get a count of my tasks.</p>
+<p>I am building this to integrate Todoist into my operating system and learn Ruby. Most existing implementations of Todoist CLI's are in Python as well as add extra formmating that prevent me from running things like <code>tdcli tasks | wc -l</code> to get a count of my tasks.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>TdCLI can be installed with Ruby Gems.
+<code>gem install tdcli</code></p>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
 <h3>
+<a id="update" class="anchor" href="#update" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Update</h3>
+
+<p>tdcli caches Todoist information and to update information you must run</p>
+
+<pre><code>$ tdcli update
+</code></pre>
+
+<h3>
 <a id="view-tasks" class="anchor" href="#view-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>View Tasks</h3>
 
-<pre><code>tdcli tasks
+<pre><code>$ tdcli tasks
 - Checkout repo
 - Install tdcli
 - Manage Todoist from the CLI
@@ -53,7 +67,7 @@
 <h3>
 <a id="view-projects" class="anchor" href="#view-projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>View Projects</h3>
 
-<pre><code>tdcli projects
+<pre><code>$ tdcli projects
 Inbox
 Hobby
 School
