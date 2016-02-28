@@ -7,15 +7,15 @@ Building this to learn Ruby and integrate Todoist into my operating system. Most
 ## Usage
 ### View Tasks
 ```
-tdcli tasks
+$ tdcli tasks
 - Checkout repo
 - Install tdcli
 - Manage Todoist from the CLI
 ```
 
-## View Projects
+### View Projects
 ```
-tdcli projects
+$ tdcli projects
 Inbox
 Hobby
 School
